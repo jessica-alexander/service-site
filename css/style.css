@@ -49,33 +49,136 @@ table {
 
 /*styling*/
 
+body {
+  /*background: lime;*/
+}
+
 .nav-bar {
   width: 100%;
   height: 50px;
-  background: purple;
-  color: white;
+  background: white ;
+  color: black;
   text-align: right;
   padding: inherit;
   margin: 0px;
+  opacity: 0.8;
+  z-index: 8;
 }
 
 li {
   float: left;
-  width: 10%;
+  /*width: 10%;*/
   text-align: left;
   padding-top: 15px;
+  padding-left: 56px;
+  position: relative;
+  left: 41%;
+}
+
+.header-image {
+  width: 100%;
+  height: 400px;
+  background: black;
+  color: white;
+  margin-bottom: 10px;
+  max-width: 100%;
+
+    background-image: url(http://www.stansautoloveland.com/wp-content/uploads/2015/10/bmw-unveils-m6-grand-coupe-with-560-hp-photo-gallery_271.jpg);
+    color: white;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    background-position: center;
+    opacity: 0.9;
+    z-index: 0;
 }
 
 .categories {
   width: 100%;
   height: 300px;
+  position: relative;
+  margin-left: auto;;
+  margin-right: auto;
+  /*background: lightgrey;*/
+  /*overflow: auto;*/
+  padding: 10px;
+
 }
 
 .summary {
   float: left;
   padding: 5px 15px;
-  margin: 0px 5px;
+  /*margin: 0px 10px;*/
+  /*margin-left: 1%;*/
+  /*margin-right: 0.25%;*/
   border: 1px dotted blue;
-  overflow: hidden;
+  /*overflow: scroll;*/
   width: 16%;
+  text-align: center;
+  position: relative;
+  background: #eae5e5;
+}
+
+.services, .parts, .insurance, .about {
+  /*margin-left: 1%;*/
+  margin-right: 0.25%;
+}
+section {
+  margin: auto;
+}
+.about {
+  margin-left: 0.25%;
+}
+/*
+.location {
+  margin-right: 1%;
+}*/
+
+.header-container {
+  height: 125px;
+  width: 125px;
+  font-size: 15pt;
+  border: 1px dotted black;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #504242;
+  color: white;
+}
+
+#header {
+
+  /*padding: 72px 0px;*/
+  text-align: center;
+
+  position: relative;
+  top: 35%;
+}
+
+main {
+  margin-top: 20px;
+  height: auto;
+  width: 100%;
+  border: 1px dotted blue;
+  background: blue;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-info {
+  margin-top: 20px;
+}
+
+#header-about {
+  font-size: 20pt;
+  padding-bottom: 15px;
+}
+
+img {
+  max-width: 100%
 }
