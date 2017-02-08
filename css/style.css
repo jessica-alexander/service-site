@@ -151,6 +151,7 @@ section {
   margin-right: auto;
   background: #504242;
   color: white;
+	max-width: 100%;
 }
 
 #header {
@@ -166,21 +167,22 @@ main {
   margin-top: 20px;
   height: auto;
   max-width: 100%;
-  border: 1px dotted blue;
-  background: #494343;
+  /*border: 1px dotted blue;*/
+  /*background: #494343;*/
   padding-bottom: 30px;
   margin-bottom: 20px;
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: justify;
+
 }
 
 .about-info {
   margin-top: 20px;
 }
 
-#header-about {
+#header-about, #header-service, #header-parts, #header-insurance, #header-location {
   font-size: 20pt;
   padding-bottom: 15px;
 }
@@ -188,3 +190,27 @@ main {
 img {
   max-width: 100%
 }
+
+.about-content, .parts-content, .location-content {
+    float: left;
+    width: 45%;
+		background: #494343;
+		padding: 40px 20px;
+		margin-bottom: 20px;
+}
+
+.service-content, .insurance-content {
+	float: right;
+	width: 45%;
+	background: #494343;
+	padding: 40px 20px;
+	margin-bottom: 20px;
+
+}
+
+/*p.header-paragragh {
+    /* color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}*/
